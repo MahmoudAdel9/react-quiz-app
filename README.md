@@ -18,19 +18,19 @@ To get the project up and running on your local machine, follow these steps:
 
 1. Clone the project repository:
 
-git clone <repository_url>
+      git clone <repository_url>
 
 2. Navigate to the project directory:
 
-cd react-quiz-app
+      cd react-quiz-app
 
 3. Install the dependencies:
 
-npm install
+      npm install
 
 4. Start the development server:
 
-npm start
+      npm start
 
 5. Open your web browser and visit `http://localhost:3000` to see the app running. The page will automatically reload if you make any changes to the source code.
 
