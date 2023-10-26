@@ -3,7 +3,7 @@
 This project is a React-based quiz app that allows users to answer multiple-choice questions and receive immediate feedback on their answers. The app utilizes Create React App as the project's scaffolding and leverages React's Context API, along with hooks such as useState, useReducer, and useEffect.. this project from (Jonas's React Coures)
 
 ## Live Server
-
+- https://react-quiz-app-lime.vercel.app/
 ## Features
 
 - Multiple-choice questions: Users can choose from a set of options for each question.
@@ -31,8 +31,12 @@ To get the project up and running on your local machine, follow these steps:
 4. Start the development server:
 
       npm start
+   
+6. run the server
 
-5. Open your web browser and visit `http://localhost:3000` to see the app running. The page will automatically reload if you make any changes to the source code.
+      npm run server   
+
+7. Open your web browser and visit `http://localhost:3000` to see the app running. The page will automatically reload if you make any changes to the source code.
 
 ## Customizing the Quiz
 
