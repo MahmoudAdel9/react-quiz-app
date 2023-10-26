@@ -195,16 +195,6 @@ progress {
   margin-bottom: 4.8rem;
 }
 
-
-.timer {
-  float: left;
-  font-size: 1.8rem;
-  color: var(--color-medium);
-  border: 2px solid var(--color-dark);
-  padding: 1.35rem 2.8rem;
-  border-radius: 100px;
-}
-
 .loader-container {
   display: flex;
   flex-direction: column;
@@ -216,8 +206,16 @@ progress {
   font-size: 1.4rem;
 }
 
-/* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+.timer {
+  float: left;
+  font-size: 1.8rem;
+  color: var(--color-medium);
+  border: 2px solid var(--color-dark);
+  padding: 1.35rem 2.8rem;
+  border-radius: 100px;
+}
 
+/* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
 .loader {
   width: 50px;
   height: 24px;
@@ -229,9 +227,7 @@ progress {
   animation: loader 1s infinite linear;
 }
 
-*/
-
-/* @keyframes loader {
+@keyframes loader {
   20% {
     background-position: 0% 0%, 50% 50%, 100% 50%;
   }
