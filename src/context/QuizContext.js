@@ -68,12 +68,16 @@ function QuizProvider({ children }) {
   const numQuestions = questions.length;
   const maxPoints = questions.reduce((prev, cur) => prev + cur.points, 0);
 
-  useEffect(function () {
-    fetch("http://localhost:9000/questions")
+  useEffect(
+    
+    
+    function () {
+    fetch("https://mahmoudadel9.github.io/react-quiz-data/db.json")
       .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      .then((data) => dispatch({ type: "dataReceived", payload: data.questions }))
       .catch((err) => dispatch({ type: "dataFailed" }));
   }, []);
+
 
   return (
     <QuizContext.Provider
